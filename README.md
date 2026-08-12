@@ -1,13 +1,13 @@
-# Karyalo POS — Demo
+# Karyalo POS — Alina Kasir Adaptation Demo
 
-Demo kasir offline untuk alur Retail dan F&B, termasuk cart, pembayaran simulasi, transaksi, pelanggan, shift, dan perangkat outlet.
+Pecahan langsung dari `Alina_ecommerce/admin_dashboard/app/kasir/page.tsx`.
 
 ## Cakupan demo
 
-- Selector Retail/F&B untuk memperlihatkan perbedaan workflow.
-- Produk/menu, cart, pembayaran tunai/QRIS/kartu, dan struk simulasi.
-- Sinkronisasi stok dan pencatatan pemasukan ke Finance secara konseptual.
-- Ringkasan outlet, transaksi, customer, shift, dan device settings.
+- Tier Retail, Marketer, Reseller, Agen, dan Distributor mengubah harga otomatis.
+- Sumber stok Offline/Shopee/TikTok/Tokopedia/WhatsApp membatasi qty.
+- Pembayaran Tunai/Transfer Manual; marketplace menyimpan Ship By.
+- Penyelesaian membuat order, mengurangi stok channel, serta menyiapkan receipt/invoice.
 
 ## Jalankan
 
@@ -15,4 +15,4 @@ Demo kasir offline untuk alur Retail dan F&B, termasuk cart, pembayaran simulasi
 npm start
 ```
 
-Port default: `3104`. Tidak ada transaksi pembayaran sungguhan.
+Port default: `3104`. Lihat [`ALINA_ADAPTATION.md`](./ALINA_ADAPTATION.md). Tidak ada transaksi sungguhan.
