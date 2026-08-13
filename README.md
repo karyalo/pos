@@ -8,6 +8,7 @@ Pecahan langsung dari `Alina_ecommerce/admin_dashboard/app/kasir/page.tsx`.
 - Sumber stok Offline/Shopee/TikTok/Tokopedia/WhatsApp membatasi qty.
 - Pembayaran Tunai/Transfer Manual; marketplace menyimpan Ship By.
 - Penyelesaian membuat order, mengurangi stok channel, serta menyiapkan receipt/invoice.
+- Customer tersimpan/walk-in, diskon, catatan, nominal diterima/kembalian, barcode, receipt CSV/cetak, dan log order terfilter.
 
 ## Jalankan
 
